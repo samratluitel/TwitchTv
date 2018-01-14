@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="scripts/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="header">
+                    <h1>TWITCH.TV</h1>
+                </div>
+            </div>
+            <div class="offset-md-2 offset-sm-2 col-md-6 col-sm-6">
+                <div id="search-box">
+                        <div class="input-group mb-3">
+                                <input type="text" id="search"class="form-control" placeholder="Streamers" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                  <span class="input-group-text" id="basic-addon2"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- BUTTON CONTAINER-->
+        <hr>
+            <div id="button-container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <button type="button" class="btn btn-outline-primary active" id="all">All</button>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <button type="button" class="btn btn-outline-primary" id="online">Online</button>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <button type="button" class="btn btn-outline-primary" id="offline">Offline</button>
+                    </div>
+                </div>
+            </div>
+        <!-- Streamer container -->
+        <div id="streamer-container">
+ 
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/paper-full.js"></script>
+</body>
+</html>

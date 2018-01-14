@@ -1,0 +1,88 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 20px;
+    width:60%;
+    border:1px solid black;
+    padding: 0;
+}
+.header{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#search-box{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#button-container{
+    margin-left: 7%;
+}
+#streamer-container{
+    width: 100%;
+}
+.streamer-block{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.streamer-description{
+    font-size:30px;
+    padding-top: 15px;
+    text-align: center;
+}
+.online{
+    background-color: #2ECC71;
+}
+.offline{
+    background-color: #F1C40F;
+}
+.img-logo{
+    width: 80px;
+    border-radius: 50%;
+}
+.active{
+    color:white !important;
+    box-shadow: none !important;
+}
+.hidden{
+    display: none;
+}
+.btn{
+    width: 140px;
+    font-size:20px;
+    margin:10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1042px) {
+   .container{
+       width: 80%;
+   }
+}
+@media screen and (max-width: 780px) {
+    .container{
+        width: 100%;
+    }
+    #button-container{
+        margin-left: 0%;
+    }
+    .img-logo{
+        width: 80px;
+        border-radius: 50%;
+    }
+ }
+ @media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+    .btn{
+        width: 100px;
+    }
+        #button-container>.row {
+            display: flex;
+          }
+          #button-container>.row>div {
+            flex: 1;
+          }
+ }
